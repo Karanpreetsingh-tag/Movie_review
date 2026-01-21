@@ -1,43 +1,24 @@
-# Movie Review App 🎬⭐
+# Movie Review App 🎬⭐ (Next.js + FastAPI + Supabase)
 
-A full-stack Movie Review application where users can browse movies, read reviews, and post their own reviews.  
-Built with a **frontend + backend** architecture and uses **Supabase** for database/auth (if enabled).
-
----
-
-## ✨ Features
-
-- Browse / search movies
-- View movie details
-- Add movie reviews (rating + comment)
-- Edit / delete your reviews (optional)
-- User authentication (optional via Supabase)
-- Responsive UI (mobile + desktop)
+A full-stack Movie Review application where users can browse movies, view details, and write reviews.  
+Frontend is built using **Next.js**, backend APIs are built using **FastAPI**, and data is stored in **Supabase (Postgres)**.
 
 ---
 
-## 🧱 Tech Stack
+## ✨ Features (What this app can do)
 
-### Frontend
-- (Add your frontend tech here, e.g. React / Next.js / Vite)
-- HTML / CSS / JavaScript (or TypeScript)
-- UI library (if any)
+### ✅ Movie Browsing
+- Browse a list of movies on the homepage
+- Search movies by name
+- View a movie details page (poster, description, etc.)
 
-### Backend
-- (Add your backend tech here, e.g. FastAPI / Node.js / Express)
-- REST APIs for reviews and movie data
+### ✅ Reviews & Ratings
+- Add a review for a movie (comment + rating)
+- View all reviews for a movie
+- Edit your own review
+- Delete your own review
 
-### Database (Supabase)
-- Supabase Postgres (tables for movies/reviews/users)
-- Supabase Auth (optional)
-
----
-
-## 📁 Project Structure
-
-```text
-movie-reco-app/
-├── frontend/          # UI code
-├── backend/           # API server code
-├── README.md
-└── .gitignore
+### ✅ User Authentication
+- Sign up / Login / Logout
+- Reviews are linked to the logged-in user
+- Only the
